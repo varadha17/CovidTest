@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.856008">
+<testcase classname="Validate India page" name="Validate India link" time="10.856008">
+<system-out><![CDATA[Given Click India link......................................................passed
+When get the confirmed case count...........................................passed
+And get the active case count...............................................passed
+And get the recovered case count............................................passed
+Then get the deceased case count............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
