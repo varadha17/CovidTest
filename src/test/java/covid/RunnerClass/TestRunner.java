@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
 		
 		features="C:\\Users\\Abinash\\eclipse-workspace\\covid19\\src\\main\\java\\covid\\feature\\India.feature",
 		glue="stepDefinition", // path of step definition files
-		format={"pretty","html:test-output", "junit:junit_xml/cucumber.xml"}, // to generate different types of reports
+		//format={"pretty","html:test-output", "junit:junit_xml/cucumber.xml"}, // to generate different types of reports
 		tags={"@smoke"}, // It will execute the tagged scenarios mentioned inside tags
 		monochrome=true, // It will display the console output in proper readable format
 		strict = false, // It will check if any step is not defined in step definition file
